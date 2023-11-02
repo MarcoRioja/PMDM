@@ -1,0 +1,10 @@
+
+Haciendo ping a 192.168.0.1 con 32 bytes de datos:
+Tiempo de espera agotado para esta solicitud.
+Tiempo de espera agotado para esta solicitud.
+Tiempo de espera agotado para esta solicitud.
+Tiempo de espera agotado para esta solicitud.
+
+Estad¡sticas de ping para 192.168.0.1:
+    Paquetes: enviados = 4, recibidos = 0, perdidos = 4
+    (100% perdidos),
