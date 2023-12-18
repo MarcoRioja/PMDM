@@ -1,4 +1,4 @@
-package Ayuda.Otros
+package M.Ayuda.Otros
 
 fun main() {
     println("Ingrese tu nota de examen: ")

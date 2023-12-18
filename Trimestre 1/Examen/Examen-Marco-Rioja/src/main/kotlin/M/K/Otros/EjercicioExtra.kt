@@ -1,4 +1,4 @@
-package Ayuda.Otros
+package M.Ayuda.Otros
 
 import kotlin.random.Random
 
@@ -32,5 +32,5 @@ fun game() {
 }
 
 fun main() {
-    game()
+    M.Ayuda.Otros.game()
 }
