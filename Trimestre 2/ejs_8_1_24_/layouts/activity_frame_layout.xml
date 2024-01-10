@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._1.ejs_8_1_24_.FrameLayout">
+
+    <View
+        android:layout_gravity="top|left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        ></View>
+
+    <View
+        android:layout_gravity="top|center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_200"
+        ></View>
+
+    <View
+        android:layout_gravity="top|right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/cardview_shadow_start_color"
+        ></View>
+
+    <View
+        android:layout_gravity="center|left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/design_default_color_primary_dark"
+        ></View>
+
+    <View
+        android:layout_gravity="center|center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/cardview_shadow_start_color"
+        ></View>
+
+    <View
+        android:layout_gravity="center|right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/cardview_dark_background"
+        ></View>
+
+    <View
+        android:layout_gravity="bottom|left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_700"
+        ></View>
+
+    <View
+        android:layout_gravity="bottom|center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/design_default_color_on_secondary"
+        ></View>
+
+    <View
+        android:layout_gravity="bottom|right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/material_dynamic_neutral30"
+        ></View>
+</FrameLayout>
