@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page1">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:src="@drawable/gojo"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Figura de Gojo"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="29.99€"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:id="@+id/btn_com_1"
+                    android:layout_width="150dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="Comprar"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:src="@drawable/nezuko"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Figura de Nezuko"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="49.99€"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:id="@+id/btn_com_2"
+                    android:layout_width="150dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="Comprar"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:src="@drawable/roxy"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Figura de Roxy"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="149.99€"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:id="@+id/btn_com_3"
+                    android:layout_width="150dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="Comprar"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginLeft="2.5dp"
+            android:text="2"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

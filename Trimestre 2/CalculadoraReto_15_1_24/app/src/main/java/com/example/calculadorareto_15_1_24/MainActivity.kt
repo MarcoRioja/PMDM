@@ -56,14 +56,18 @@ class MainActivity : AppCompatActivity() {
 
         btn_equals.setOnClickListener() {
             if (operation != ' ') {
-                when (operation) {
-                    '+' -> res = num1 + num2
-                    '-' -> res = num1 - num2
-                    '*' -> res = num1 * num2
-                    '/' -> res = num1 / num2
-                }
+                if (operation == '/' && num2 == 0) {
+                    resList.add("Error")
+                }else {
+                    when (operation) {
+                        '+' -> res = num1 + num2
+                        '-' -> res = num1 - num2
+                        '*' -> res = num1 * num2
+                        '/' -> res = num1 / num2
+                    }
 
-                resList.add(String.format("%d %c %d = %d", num1,operation,num2,res))
+                    resList.add(String.format("%d %c %d = %d", num1,operation,num2,res))
+                }
 
                 resList.reverse()
                 if (resList.size >= 4) {
